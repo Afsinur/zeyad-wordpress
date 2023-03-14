@@ -10,10 +10,10 @@ import Classic24kTee from "../../pages/product/Classic24kTee";
 const DynamicPages = () => {
   const params = useParams();
 
-  if (params.page === "Classic24kHoodieSignatureEdition") {
+  if (params.page === "classic24khoodiesignatureedition") {
     return <Classic24kHoddieSignatureEditrion />;
   }
-  if (params.page === "ClassicMafiaHoodie") {
+  if (params.page === "classicmafiahoodie") {
     return <ClassicMafiaHoodie />;
   }
   if (params.page === "ClassicMafiaLongSleeve") {
@@ -25,7 +25,7 @@ const DynamicPages = () => {
   if (params.page === "Classic24kTee") {
     return <Classic24kTee />;
   }
-  if (params.page === "Classic24KLongSleeve") {
+  if (params.page === "classic24klongsleeve") {
     return <Classic24kLongSleeve />;
   }
 };
