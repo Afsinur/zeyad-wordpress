@@ -16,13 +16,13 @@ const DynamicPages = () => {
   if (params.page === "classicmafiahoodie") {
     return <ClassicMafiaHoodie />;
   }
-  if (params.page === "ClassicMafiaLongSleeve") {
+  if (params.page === "classicmafialongsleeve") {
     return <ClassicMafiaLongSleeve />;
   }
-  if (params.page === "ClassicMafiaTee") {
+  if (params.page === "classicmafiatee") {
     return <ClassicMafiaTee />;
   }
-  if (params.page === "Classic24kTee") {
+  if (params.page === "classic24ktee") {
     return <Classic24kTee />;
   }
   if (params.page === "classic24klongsleeve") {
